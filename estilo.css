@@ -7,7 +7,7 @@ h1 {
 }
 
 body {
-  background-color: white;
+  background-color: #273c75;
 }
 
 button {
@@ -39,9 +39,11 @@ button {
   transition: 0.2s;
 }
 
-button :hover {
-  scale: (1.1);
+button:hover {
+  transform: scale(1.1);
   box-shadow: 0 0 0.25rem;
+  color: white;
+  font-style: italic;
 }
 
 img {
@@ -51,4 +53,8 @@ img {
   height: 15rem;
   margin: auto;
   background-color: white;
+}
+
+li {
+  list-style: none;
 }
