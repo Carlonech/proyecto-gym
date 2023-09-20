@@ -1,0 +1,54 @@
+ul {
+  list-style-type: none;
+}
+
+h1 {
+  text-align: center;
+}
+
+body {
+  background-color: white;
+}
+
+button {
+  background-color: transparent;
+  border: 0cap;
+  border-radius: 0;
+}
+
+header {
+  padding-block: 2rem;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  padding-inline: 1rem;
+}
+
+button {
+  background-color: aqua;
+  padding: 0.5rem;
+  border-radius: 100vmax;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: 600;
+  box-shadow: 0 0 0.5rem;
+  transition: 0.2s;
+}
+
+button :hover {
+  scale: (1.1);
+  box-shadow: 0 0 0.25rem;
+}
+
+img {
+  display: flex;
+  width: 100%;
+  width: 15rem;
+  height: 15rem;
+  margin: auto;
+  background-color: white;
+}
